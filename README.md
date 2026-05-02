@@ -396,7 +396,7 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-<img width="855" height="292" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_15_07" src="https://github.com/user-attachments/assets/c2df551b-c3dd-4fe1-ac56-7f42b8de59a2" />
+<img width="844" height="109" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_16_02" src="https://github.com/user-attachments/assets/4d39ac37-3441-4a55-9842-0bb0b8c370a1" />
 
 
  
