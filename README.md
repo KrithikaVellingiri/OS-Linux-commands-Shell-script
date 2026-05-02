@@ -174,43 +174,43 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-<img width="722" height="101" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_02_14" src="https://github.com/user-attachments/assets/e03cd2ce-8c2b-4978-b7eb-38639eca439b" />
+<img width="1039" height="105" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_03_20" src="https://github.com/user-attachments/assets/b96cd972-7a2e-4c5b-8a52-edba1dfd4b6f" />
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-<img width="722" height="101" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_02_14" src="https://github.com/user-attachments/assets/0cdd6851-f44e-4d60-a162-7dacf43f1b5d" />
+<img width="854" height="105" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_03_37" src="https://github.com/user-attachments/assets/74427e69-9523-4676-b3ed-6ec457bfc5b1" />
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-<img width="722" height="101" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_02_14" src="https://github.com/user-attachments/assets/c00b54f1-28cf-4bb1-b0ee-3271e9dde5c7" />
+<img width="763" height="97" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_03_52" src="https://github.com/user-attachments/assets/ec869499-793e-4eb4-8c80-d450b7f8ad3f" />
 
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-<img width="722" height="101" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_02_14" src="https://github.com/user-attachments/assets/58f77b72-36ad-433c-ac9a-8b1a341c92d5" />
+<img width="653" height="82" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_04_09" src="https://github.com/user-attachments/assets/2bbe9b29-97e6-4df1-806a-f1beef24d9f4" />
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-<img width="722" height="101" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_02_14" src="https://github.com/user-attachments/assets/15562803-7fb5-4b02-8e1d-b8ec3f48a9c6" />
+<img width="782" height="105" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_04_22" src="https://github.com/user-attachments/assets/54c10d6c-a259-4a05-88e3-32c3c6ab36a8" />
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-<img width="722" height="101" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_02_14" src="https://github.com/user-attachments/assets/3c2d1b97-c339-4635-a554-1508ffd39e1e" />
+<img width="782" height="105" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_04_22" src="https://github.com/user-attachments/assets/98aaabf3-f055-4066-a9ea-ad62318de76b" />
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-<img width="576" height="122" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_05_42" src="https://github.com/user-attachments/assets/3ce45b08-8e08-408a-bc40-d583d56ec631" />
+<img width="576" height="122" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_05_42" src="https://github.com/user-attachments/assets/e31aceb1-852e-4224-b559-d2994fcc8c85" />
 
 
 
