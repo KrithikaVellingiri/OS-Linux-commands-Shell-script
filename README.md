@@ -144,8 +144,7 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
-<img width="527" height="79" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_00_33" src="https://github.com/user-attachments/assets/da74c03f-bfe2-4f01-aff0-6593c74d8419" />
-
+<img width="1162" height="521" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_01_56" src="https://github.com/user-attachments/assets/7da5b122-40ae-4192-b9f7-cd0a85d512a6" />
 
 
 grep -w -n world newfile   
@@ -216,7 +215,7 @@ egrep '((W|w)orld$)' newfile
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-<img width="576" height="122" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_05_42" src="https://github.com/user-attachments/assets/5a78b6a4-7062-4d86-8f7d-af55d8bf8aea" />
+<img width="869" height="75" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_06_00" src="https://github.com/user-attachments/assets/7b327a57-da78-4e51-aa91-4ddffff2c585" />
 
 
 
@@ -227,7 +226,7 @@ egrep 'Linux.*world' newfile
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-<img width="576" height="122" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_05_42" src="https://github.com/user-attachments/assets/aee24b13-3d97-4b99-b8a7-703848ea7bda" />
+<img width="685" height="108" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_06_14" src="https://github.com/user-attachments/assets/335f06a1-e0cc-44f9-bc70-03a6cc472d66" />
 
 
 egrep l{2} newfile
@@ -263,7 +262,7 @@ sed -n -e '3p' file23
 
 sed -n -e '$p' file23
 ## OUTPUT
-<img width="715" height="81" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_07_42" src="https://github.com/user-attachments/assets/3c7a704c-5bdf-4559-b615-7f4e85afcdea" />
+<img width="574" height="73" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_08_14" src="https://github.com/user-attachments/assets/009fba78-a913-42fd-9744-1f1bf9b6b692" />
 
 
 
@@ -275,20 +274,19 @@ sed  -e 's/Ram/Sita/' file23
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-<img width="514" height="260" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_08_42" src="https://github.com/user-attachments/assets/9bd2c71f-afc1-49ff-9028-866c2bc519b7" />
+<img width="514" height="260" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_08_42" src="https://github.com/user-attachments/assets/8b3f7276-3ebb-427f-b476-ff55e9e9028a" />
 
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-<img width="514" height="260" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_08_42" src="https://github.com/user-attachments/assets/e80e043b-f874-4742-afca-dc60ec10011f" />
+<img width="833" height="251" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_08_54" src="https://github.com/user-attachments/assets/167de305-8947-46ac-97b5-cb5a6b864fb7" />
 
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-<img width="831" height="174" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_09_06" src="https://github.com/user-attachments/assets/f4402a1b-dc43-4cd4-b3d6-49130eecd4c4" />
-
+<img width="890" height="199" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_09_06" src="https://github.com/user-attachments/assets/66b0fff1-fd54-42d9-b3da-8d0a3c6da4d6" />
 
 
 sed -n -e '2,/Joe/p' file23
@@ -300,7 +298,7 @@ sed -n -e '2,/Joe/p' file23
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-<img width="956" height="134" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_09_069" src="https://github.com/user-attachments/assets/ebb1f846-c84f-48ad-8eda-542dd22160b4" />
+<img width="918" height="122" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_09_31" src="https://github.com/user-attachments/assets/59345d33-60df-4790-a012-682f8305add9" />
 
 
 
@@ -312,13 +310,13 @@ seq 10
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-<img width="765" height="118" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_09_59" src="https://github.com/user-attachments/assets/c5ca8d3e-3f80-40cf-9f73-2cfdb7c45e0e" />
+<img width="765" height="118" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_09_59" src="https://github.com/user-attachments/assets/a7561563-df20-49d8-8525-fdd66e159391" />
 
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-<img width="745" height="122" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_10_11" src="https://github.com/user-attachments/assets/c40e65c7-2fb8-4fdb-ad0c-79f475c0fcff" />
+<img width="745" height="122" alt="VirtualBox_Parrot Security 6 0_02_05_2026_01_10_11" src="https://github.com/user-attachments/assets/2a4cc8a4-a65b-4649-81c6-2e416f365b8a" />
 
 
 
